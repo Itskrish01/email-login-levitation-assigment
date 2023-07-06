@@ -121,7 +121,7 @@ const Home: React.FC = () => {
         <div className="flex flex-col justify-center container max-w-4xl mx-auto px-4 w-full h-screen">
             {authState.authToken !== "" && <Button className='absolute top-2 right-2' onClick={handleLogout}>Logout</Button>}
 
-            <Toaster position="top-right" reverseOrder={false} />
+            <Toaster position="top-left" reverseOrder={false} />
             <Stepper pageStep={currentStep} />
             <div className="w-full flex-col items-center flex justify-center">
                 {steps[currentStep]}
