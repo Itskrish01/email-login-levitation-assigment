@@ -40,6 +40,7 @@ const Step1: React.FC = () => {
         dispatch(updateFormData({ name, value }));
     };
 
+
     useEffect(() => {
         if (selectedCountry) {
             dispatch(addDialCode(selectedCountry.dial_code))

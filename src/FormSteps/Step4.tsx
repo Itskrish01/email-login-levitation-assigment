@@ -26,7 +26,7 @@ const Step4: React.FC = () => {
     };
 
     return (
-        <div className="bg-white w-full  sm:mx-0 rounded-lg md:px-0 px-4 pb-8 mb-4">
+        <div className="bg-white w-full  sm:mx-0 rounded-lg pb-8 mb-4">
             <span className="text-red-500 text-xs mb-1">Valid file type - PNG, PDF</span>
             <div className="items-center justify-center bg-grey-lighter">
                 <label className="w-full flex flex-col items-center px-4 py-6 bg-white text-blue rounded-lg shadow tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-slate-600">

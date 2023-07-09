@@ -19,7 +19,7 @@ const Step2: React.FC = () => {
     };
 
     return (
-        <div className="container max-w-7xl mx-auto w-full space-y-3 sm:mx-0 rounded-lg md:px-0 px-4 pt-6 pb-8 mb-4">
+        <div className="container max-w-7xl mx-auto w-full space-y-3 sm:mx-0 rounded-lg pt-6 pb-8 mb-4">
             <Input
                 type="text"
                 name="address_line_1"
