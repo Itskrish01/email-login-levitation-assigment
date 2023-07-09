@@ -9,9 +9,6 @@ function LoginPage() {
   const dispatch = useDispatch()
   const { login, isLoading, isError, errorStatement } = useLogin();
 
-
-
-
   // Check if the auth token exists in localStorage
   const authTokenFromStorage = localStorage.getItem('authToken');
 

@@ -12,7 +12,6 @@ const Step1: React.FC = () => {
     const [countryCodeDropdownShow, setCountryCodeDropdownShow] = useState<boolean>(false)
     const [countriesData, setCountriesData] = useState<any[]>([]);
     const [selectedCountry, setSelectedCountry] = useState<object | undefined>(null);
-    const [phoneNumber, setPhoneNumber] = useState<string>("");
     const inputRef = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
@@ -45,7 +44,7 @@ const Step1: React.FC = () => {
         if (selectedCountry) {
             dispatch(addDialCode(selectedCountry.dial_code))
         }
-    })
+    }, [selectedCountry])
 
 
     return (
